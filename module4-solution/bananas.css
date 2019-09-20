@@ -1,0 +1,186 @@
+*{
+	padding: 0;
+	margin: 0;
+ }
+
+h1
+{
+	font-family: "Pacifico", cursive;
+	color: yellow;
+	font-size: 7em;
+	transform: rotate(-5deg);
+  text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #000;
+  line-height: 1.2em;
+}
+
+header, footer, section
+{
+	min-height: 400px;
+}
+
+p{
+	margin-top: 30px;
+	font-family: "Quicksand", cursiva;
+}
+h2{
+	padding-top: 50px;
+	font-family: "Quicksand", cursiva;
+	font-size: 2em;
+}
+.cab
+{
+	height: 400px;
+	background-image: url(bananafondo.png);
+	background-repeat: no-repeat;
+	background-size: contain ;
+	background-position: right;
+
+}
+.centro
+{
+	width: 80%;
+	margin: 0 auto;
+  position: relative;
+
+}
+.equipo
+{
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    margin: 25px;
+}
+header
+{
+	background-image: url(pinkbanana.png);
+}
+.ima{
+	height: 200px;
+	width: 200px;
+  margin: auto;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+
+  transition-duration: 2s;
+   }
+
+   .ima1:hover
+   {
+   	transform: rotate3d(1,0,0,180deg);
+   	background-image:url(ulrich2.jpg) 
+   }
+    .ima2:hover
+   {
+   	transform: rotate3d(1,0,0,180deg);
+   	background-image:url(helge2.jpg) 
+   }
+    .ima3:hover
+   {
+   	transform: rotate3d(1,0,0,180deg);
+   	background-image:url(bartoz2.jpg) 
+   }
+   .par{
+	margin: 10px;
+}
+
+ .ima1{
+   background-image: url(ulrich.jpg);
+   background-size: cover;
+  }
+  .ima2
+  {
+  background-image: url(helge.jpg);
+  background-size: cover;
+  }
+  .ima3
+  {
+  background-image: url(bartoz.jpg);
+  background-size: cover;
+  }
+ .foto1
+ {
+ height: 400px;
+ width: 49%;
+ background-image: url(exportacion.png);
+ background-size: cover;
+ background-position: center;
+ display: inline-block;/*
+ position: absolute;
+ right: 50%;*/
+ }
+.con1
+{  
+  /*position: absolute;
+  left: 50%;
+  top:0;
+  bottom: 0;*/
+  width: 49%;
+  padding-left: 50px;
+	display: inline-block;
+	/*margin-bottom: 50px;*/
+  box-sizing:border-box; 
+  -moz-box-sizing:border-box; /* Firefox */
+ -webkit-box-sizing:border-box; /* Safari */
+}
+.foto2
+{
+ height: 400px;
+ width: 49%;
+ background-image: url(fabrican.png);
+ background-size: contain;
+ background-position: right;
+ background-repeat: no-repeat;
+ display: inline-block;
+}
+.con2
+{
+ width: 49%;
+ padding-right: 50px;
+ display: inline-block;
+  /*margin-bottom: 50px;*/
+ box-sizing:border-box; 
+ -moz-box-sizing:border-box; /* Firefox */
+ -webkit-box-sizing:border-box; /* Safari */
+}
+
+.sec1
+{
+ text-align:right; 
+}
+.sec2
+{
+ background-color: #A9F5D0;
+ text-align: left;
+}
+.sec3
+{
+ text-align:center; 
+}
+footer{
+	background-image: url(font3.jpg);
+}
+form{
+	margin: 30px auto;
+ }
+ label, input, textarea{
+ 	display: block;
+ 	margin: 20px;
+ }
+ .formulario
+ {
+ 	width: 200px ;
+ 	margin: 0 auto;
+ 	padding: 20px;
+ }
+
+ @media(max-width: 575px)
+ {
+  .con1, .con2, .foto2 , .foto1
+  {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+ }
