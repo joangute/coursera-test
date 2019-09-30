@@ -1,0 +1,122 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+  font-size: 10px;
+  font-family: "Roboto", cursiva;
+}
+main{
+  background-color: rgba(0,0,0,.8);
+  color: white;
+  box-shadow: inset 0px 0px 12px 6px rgba(0,0,0,.75)
+}
+
+.triqueta
+{
+	height: 300px;
+	width: 100%;
+	margin: 0 auto;
+  padding: 2rem 0;
+	background-image: url(tiqueta.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+  filter: invert(1);
+   background-position: center;
+}
+.smeragdina
+{
+  height: 270px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 0;
+  background-image: url(smeragdina.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.creacion
+{
+  height: 250px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 0;
+  background-image: url(genesis.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.caida
+{
+  
+  height: 410px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 0;
+  background-image: url(condenados.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.nietzsche
+{
+  width: 100%;
+  height: 430px;
+  margin: 0 auto;
+  padding: 2rem 0;
+  background-image: url(niche.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.contenido
+{
+  width: 90%;
+	margin: 0 auto;
+  padding: 2rem 0;
+}
+header
+{
+  height: 100vh;
+  background: linear-gradient(to top ,rgba(0,0,0,.5),transparent), url(Dark.jpg) center;
+ /* background-color:;
+  background-position: center;*/
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.titulo{
+	/*font-family: "Poppins", cursiva;*/
+	font-size: 8rem;	
+	padding-top: 10rem;
+}
+.subtitulo
+{
+  font-size: 2rem;
+  text-align: center;
+  letter-spacing: 4px;
+  padding-top: 50vh;
+}
+.titulo-sec{
+	text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 2rem;
+  border-bottom: 10px #E9ED0C solid;
+  background-color: rgba(0,0,0,0.7);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+p{
+  /*background-color: rgba(0,0,0,0.5);*/
+  padding: 0.5em;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+
+
+ 
+
